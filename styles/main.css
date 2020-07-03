@@ -1,8 +1,56 @@
-/* цвет основного текста #21212*/
-/* вторичный цвет текста #757575 */
-/* белый #FFFFFF */
-/* вторичный цвет фона #2196F3 */
-
+.site-nav {
+  list-style: none;
+}
+.auth-nav {
+  list-style: none;
+}
 .list {
+  list-style: none;
+}
+.body {
+  background-color: (--primary-white-color);
+}
+.logo {
+  text-decoration: none;
+}
+.logo-part {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: var(--primary-title-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .contacts-link {
+  color: var(--primary-title-color);
+  text-decoration: none;
+}
+.auth-nav .contacts-link:hover,
+.auth-nav .contacts-link:focus {
+  color: var(--accent-color);
+}
+.main .button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.main .button:hover,
+.main .button:focus {
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
+}
+.duties {
+  background-color: var(--link-background-color);
+}
+.clients {
+  list-style: none;
+}
+.social-links {
+  list-style: none;
+}
+.adress-link {
   list-style: none;
 }
