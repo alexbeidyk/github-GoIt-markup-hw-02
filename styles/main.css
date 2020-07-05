@@ -41,6 +41,7 @@ body {
   color: var(--accent-color);
 }
 .contacts-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,7 +59,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: var (--primary-white-color);
 }
 .button-primary {
   font-weight: 700;
@@ -72,7 +73,7 @@ body {
   background-color: var(--accent-color);
 }
 .feature-list-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -159,5 +160,16 @@ body {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+.address {
+  font-style: normal;
+}
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--primary-white-color);
 }
