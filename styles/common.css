@@ -9,3 +9,10 @@
   --footer-links-color: rgba (255, 255, 255, 0.6);
   --link-background-color: rgba(47, 48, 58, 0.8);
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
